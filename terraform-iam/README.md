@@ -7,6 +7,8 @@ This terraform root module manages:
 - IAM roles
 - fastly log module
 - infrastructure for archeologist team
+- Webhooks for the Cache bucket as our terraform code is awkwardly split and it
+  requires iam:PassRole
 
 ## Setup
 
